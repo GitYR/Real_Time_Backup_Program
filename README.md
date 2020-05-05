@@ -1,11 +1,11 @@
 # 2019_lsp_project3
 
 한글 설명은 PDF 첨부하였습니다 -> 과제 명세서
-This program was written at(?) Ubuntu Linux.
 
 [CAUTION]
 
 I'm not a native english speaker, so please consider it when you read this script.
+This program was written at Ubuntu Linux.
 
 [OVERVIEW]
 
@@ -98,5 +98,3 @@ Until the 'exit' command will be entered, the program will be running.
 6. 'ls' and 'vi' : these commands is same with 'ls' and 'vi' in Linux Terminal.
 
 7. 'exit' : exit the program
-
-  
