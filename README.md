@@ -26,9 +26,9 @@ Until the 'exit' command will be entered, the program will be running.
 
 1. 'add'
   
-  use example : "add <FILENAME> [PERIOD] [OPTION]"
+  use example : "add [FILENAME] [PERIOD] [OPTION]"
   
-  <FILENAME> : It is necessary to enter <FILENAME> when you command 'add'.
+  [FILENAME] : It is necessary to enter [FILENAME] when you command 'add'.
   
     If you want to add a new backup file, enter the 'add' command. Then, the program will add <FILENAME> in a backup list.
     Backup list is a linked list structure. you can use absolute path and relative path both in <FILENAME>.
@@ -59,9 +59,9 @@ Until the 'exit' command will be entered, the program will be running.
     
 2. 'remove'
 
-  use example : "remove <FILENAME> [OPTION]
+  use example : "remove [FILENAME] [OPTION]
   
-  <FILENAME> : It is necessary to enter <FILENAME> when you command 'remove'.
+  [FILENAME] : It is necessary to enter [FILENAME] when you command 'remove'.
   
     If you don't want to make any more backup files, you can use this command to remove <FILENAME> from backup list.
     The detailed explanation is same with <FILENAME> in 'add'.
@@ -72,7 +72,7 @@ Until the 'exit' command will be entered, the program will be running.
 
 3. 'compare'
 
-  use example : "compare <FILENAME1> <FILENAME2>
+  use example : "compare [FILENAME1] [FILENAME2]
   
   When you use this command, the program will compare <FILENAME1> and <FILENAME2> by 'mtime' and file sizes.
   If 'mtime' and file sizes are same, the program will treat them as same files. The detailed explanation of <FILENAME> is 
@@ -80,13 +80,13 @@ Until the 'exit' command will be entered, the program will be running.
 
 4. 'recover'
 
-  use example : "recover <FILENAME> [OPTION]
+  use example : "recover [FILENAME] [OPTION]
   
   When you use this command, the program will change the original file into backup file. If the backup file exists,
   the program will print the list of backup times and those sizes in ascending order by backup time.
   You can choose a file you want to change. When you choose the file then the program will print the contents of changed file.
   
-  <FILENAME> : this is same with <FILENAME> in 'add'.
+  [FILENAME] : this is same with [FILENAME] in 'add'.
   
   [OPTION]
   
