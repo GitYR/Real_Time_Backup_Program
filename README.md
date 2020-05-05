@@ -1,6 +1,7 @@
 # 2019_lsp_project3
-# 한글 설명은 PDF 첨부하였습니다 -> 과제 명세서
-# This program was written at(?) Ubuntu Linux.
+
+한글 설명은 PDF 첨부하였습니다 -> 과제 명세서
+This program was written at(?) Ubuntu Linux.
 
 [CAUTION]
 
