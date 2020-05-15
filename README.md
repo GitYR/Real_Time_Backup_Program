@@ -1,4 +1,4 @@
-# 2019_lsp_project3
+# Real_Time_Backup_Program
 
 한글 설명은 PDF 첨부하였습니다 -> 과제 명세서
 
